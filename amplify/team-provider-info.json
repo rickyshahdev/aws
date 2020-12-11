@@ -10,6 +10,11 @@
       "StackName": "amplify-gritsquad-staging-211447",
       "StackId": "arn:aws:cloudformation:us-east-2:029617116030:stack/amplify-gritsquad-staging-211447/e6075a80-3bf5-11eb-bca1-0a4a6fa337ee",
       "AmplifyAppId": "dbyvslngfd8au"
+    },
+    "categories": {
+      "auth": {
+        "gritsquad87805c8e": {}
+      }
     }
   }
 }
