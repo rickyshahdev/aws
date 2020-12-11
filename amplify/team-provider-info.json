@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gritsquad-staging-211447-authRole",
+      "UnauthRoleArn": "arn:aws:iam::029617116030:role/amplify-gritsquad-staging-211447-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::029617116030:role/amplify-gritsquad-staging-211447-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-gritsquad-staging-211447-deployment",
+      "UnauthRoleName": "amplify-gritsquad-staging-211447-unauthRole",
+      "StackName": "amplify-gritsquad-staging-211447",
+      "StackId": "arn:aws:cloudformation:us-east-2:029617116030:stack/amplify-gritsquad-staging-211447/e6075a80-3bf5-11eb-bca1-0a4a6fa337ee",
+      "AmplifyAppId": "dbyvslngfd8au"
+    },
+    "categories": {
+      "auth": {
+        "gritsquad462a7b3d": {}
+      }
+    }
+  }
+}
