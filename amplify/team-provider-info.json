@@ -16,5 +16,23 @@
         "gritsquad87805c8e": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gritsquad-dev-200552-authRole",
+      "UnauthRoleArn": "arn:aws:iam::029617116030:role/amplify-gritsquad-dev-200552-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::029617116030:role/amplify-gritsquad-dev-200552-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-gritsquad-dev-200552-deployment",
+      "UnauthRoleName": "amplify-gritsquad-dev-200552-unauthRole",
+      "StackName": "amplify-gritsquad-dev-200552",
+      "StackId": "arn:aws:cloudformation:us-east-2:029617116030:stack/amplify-gritsquad-dev-200552/2fb2dbd0-3c16-11eb-b205-062633c0c3d0",
+      "AmplifyAppId": "dbyvslngfd8au"
+    },
+    "categories": {
+      "auth": {
+        "gritsquad87805c8e": {}
+      }
+    }
   }
 }
