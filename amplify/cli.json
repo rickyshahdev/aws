@@ -1,6 +1,6 @@
 {
   "features": {
-    "graphql": {
+    "graphqltransformer": {
       "addmissingownerfields": true,
       "validatetypenamereservedwords": true,
       "useexperimentalpipelinedtransformer": false,
