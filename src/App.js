@@ -6,7 +6,7 @@ import { listNotes } from './graphql/queries';
 import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } from './graphql/mutations';
 
 
-const initialFormState = { name: '', description: '' }
+const initialFormState = { name: '', description: '', image: ''}
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -18,9 +18,11 @@ function App() {
 
   async function onChange(e) {
   if (!e.target.files[0]) return
+  console.log(e.target.files[0]);
   const file = e.target.files[0];
   setFormData({ ...formData, image: file.name });
   await Storage.put(file.name, file);
+
   fetchNotes();
 }
   async function fetchNotes() {
@@ -78,10 +80,10 @@ return (
           <div key={note.id || note.name}>
             <h2>{note.name}</h2>
             <p>{note.description}</p>
+            <img src={note.image} alt="mynotes"style={{width: 400}}/><br/>
             <button onClick={() => deleteNote(note)}>Delete note</button>
-            {
-              note.image && <img src={note.image} style={{width: 400}} />
-            }
+
+
           </div>
         ))
       }
